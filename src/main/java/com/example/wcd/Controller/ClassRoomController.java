@@ -55,6 +55,17 @@ public class ClassRoomController extends HelloServlet {
     }
     @Override
     public void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        System.out.println("ClassRoomController doPut");
+    }
+    @Override
+    protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        super.doDelete(req, resp);
+        entityManager.getTransaction().begin();
+        int id = Integer.parseInt(req.getParameter("id"));
+        StoredProcedureQuery query = entityManager.createStoredProcedureQuery("DELETE_CLASSROOM_BY_ID");
+        query.registerStoredProcedureParameter(1, Integer.class, ParameterMode.IN);
+        query.setParameter(1,id);
+        query.execute();
+        System.out.println("ClassRoomController doDelete");
     }
 }
