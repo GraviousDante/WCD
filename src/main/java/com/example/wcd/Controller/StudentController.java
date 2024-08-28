@@ -9,7 +9,6 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet(name = "/student")
-
 public class StudentController extends HttpServlet {
     @Override
     public void init() throws ServletException {

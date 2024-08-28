@@ -14,13 +14,14 @@ public class ClassRoom {
     private String class_name;
     private Integer number_member;
 
-    public ClassRoom() {
-    }
-
     public ClassRoom(String class_name, int id, Integer number_member) {
         this.class_name = class_name;
         this.id = id;
         this.number_member = number_member;
+    }
+
+    public ClassRoom() {
+
     }
 
     public String getClass_name() {
