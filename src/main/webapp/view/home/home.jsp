@@ -19,6 +19,6 @@
     <%@ include file="../../include/header.jsp"%>
 </header>
 <body>
-<h1>Hello world</h1>
+<h1>PLayer Manager</h1>
 </body>
 </html>
