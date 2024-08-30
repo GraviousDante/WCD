@@ -43,6 +43,10 @@
 </div>
 <table class="table">
     <thead>
+    <th>Id</th>
+    <th>Class Name</th>
+    <th>Number</th>
+    <th>Action</th>
     </thead>
     <tbody>
     <%
