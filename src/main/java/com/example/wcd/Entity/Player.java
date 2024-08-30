@@ -16,7 +16,7 @@ public class Player {
     private String age;
     private int index_id;
 
-    public int getPlayer_id() {
+    public static int getPlayer_id() {
         return player_id;
     }
 
@@ -24,7 +24,7 @@ public class Player {
         this.player_id = player_id;
     }
 
-    public String getName() {
+    public static String getName() {
         return name;
     }
 
@@ -48,7 +48,7 @@ public class Player {
         this.age = age;
     }
 
-    public int getIndex_id() {
+    public static int getIndex_id() {
         return index_id;
     }
 
