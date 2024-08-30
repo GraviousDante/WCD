@@ -11,13 +11,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/wcd_war_exploded/classroom">Class</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/wcd_war_exploded/student">Student</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/wcd_war_exploded/subject">Subject</a>
+                    <a class="nav-link" href="/wcd_war_exploded/player">Player</a>
                 </li>
             </ul>
         </div>

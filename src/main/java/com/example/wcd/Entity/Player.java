@@ -9,12 +9,12 @@ public class Player {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    private int player_id;
+    private static int player_id;
 
-    private String name;
+    private static String name;
     private String full_name;
     private String age;
-    private int index_id;
+    private static int index_id;
 
     public static int getPlayer_id() {
         return player_id;
