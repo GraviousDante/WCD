@@ -60,9 +60,9 @@ public class ClassRoomController extends HelloServlet {
                 entityManager.getTransaction().commit();
             }
         } catch (Exception e) {
-                e.printStackTrace();
-                entityManager.getTransaction().rollback();
-            }
+            e.printStackTrace();
+            entityManager.getTransaction().rollback();
+        }
     }
     @Override
     public void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

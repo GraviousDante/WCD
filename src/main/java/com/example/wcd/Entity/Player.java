@@ -10,6 +10,7 @@ public class Player {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private int player_id;
+
     private String name;
     private String full_name;
     private String age;
